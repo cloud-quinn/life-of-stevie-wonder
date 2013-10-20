@@ -1,0 +1,5 @@
+C:\Users\C\Documents\MSc Information Systems and Technology\5. Internet and Multimedia Technology\Life-of-Stevie-Wonder\Life-of-Stevie-Wonder\bin\Life-of-Stevie-Wonder.dll
+C:\Users\C\Documents\MSc Information Systems and Technology\5. Internet and Multimedia Technology\Life-of-Stevie-Wonder\Life-of-Stevie-Wonder\bin\Life-of-Stevie-Wonder.pdb
+C:\Users\C\Documents\MSc Information Systems and Technology\5. Internet and Multimedia Technology\Life-of-Stevie-Wonder\Life-of-Stevie-Wonder\obj\Debug\Life-of-Stevie-Wonder.csprojResolveAssemblyReference.cache
+C:\Users\C\Documents\MSc Information Systems and Technology\5. Internet and Multimedia Technology\Life-of-Stevie-Wonder\Life-of-Stevie-Wonder\obj\Debug\Life-of-Stevie-Wonder.dll
+C:\Users\C\Documents\MSc Information Systems and Technology\5. Internet and Multimedia Technology\Life-of-Stevie-Wonder\Life-of-Stevie-Wonder\obj\Debug\Life-of-Stevie-Wonder.pdb

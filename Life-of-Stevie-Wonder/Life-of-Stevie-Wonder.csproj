@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C27C8BCB-95D7-4154-A6AC-87438BF48516}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Life_of_Stevie_Wonder</RootNamespace>
+    <AssemblyName>Life-of-Stevie-Wonder</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="03_At_Last_1_converted.mp3" />
+    <Content Include="05_If_You_Really_Love_Me_converted.mp3" />
+    <Content Include="2_01_Isn_39_t_She_Lovely_converted.mp3" />
+    <Content Include="arrow3.png" />
+    <Content Include="bg.png" />
+    <Content Include="Content\images\bg.png" />
+    <Content Include="Content\images\stevie-banner.png" />
+    <Content Include="Continued Success movie featuring the song Sir Duke.mp4" />
+    <Content Include="Continued Success movie finished.mp4" />
+    <Content Include="Continued Success.html" />
+    <Content Include="continued-success.gif" />
+    <Content Include="Dionne_Warwick_and_Friends_That_39_s_What_Friends_.mp3" />
+    <Content Include="Early Life movie featuring the song Fingertips.mp4" />
+    <Content Include="Early Life movie finished.mp4" />
+    <Content Include="early-life-rollover.png" />
+    <Content Include="early-life.gif" />
+    <Content Include="HappyBirthday.mp4" />
+    <Content Include="Legacy Activism movie finished.mp4" />
+    <Content Include="Legacy and Activism movie featuring song Happy Birthday.mp4" />
+    <Content Include="Legacy and Activism.html" />
+    <Content Include="legacy-activism.gif" />
+    <Content Include="Little Stevie Wonder - Fingertips.mp4" />
+    <Content Include="Motown Years movie featuring the song Uptight.mp4" />
+    <Content Include="Motown Years movie finished.mp4" />
+    <Content Include="Motown Years.html" />
+    <Content Include="Early Life.html" />
+    <Content Include="Content\site.css" />
+    <Content Include="Content\jquery-ui-1.10.3.redmond.css" />
+    <Content Include="Content\jquery-ui-1.10.3.redmond.min.css" />
+    <Content Include="motown-years.gif" />
+    <Content Include="packages.config" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-ui-1.10.3.js" />
+    <Content Include="Scripts\jquery-ui-1.10.3.min.js" />
+    <Content Include="Scripts\site.js" />
+    <Content Include="SirDuke.mp4" />
+    <Content Include="stevie-activism2.jpg" />
+    <Content Include="stevie-activism3.jpg" />
+    <Content Include="stevie-and-aisha.jpg" />
+    <Content Include="stevie-and-syreeta.jpg" />
+    <Content Include="stevie-banner.png" />
+    <Content Include="stevie-classic-years.jpg" />
+    <Content Include="stevie-early-life-1.jpg" />
+    <Content Include="stevie-early-life2.jpg" />
+    <Content Include="stevie-early-life3jpg.jpg" />
+    <Content Include="stevie-legacy-and-activism.jpg" />
+    <Content Include="stevie-motown-years.png" />
+    <Content Include="stevie-time-2-love.jpg" />
+    <Content Include="stevie-yamaha.jpg" />
+    <Content Include="stevie-yamaha.png" />
+    <Content Include="Transcript for Continued Success Video featuring the song Sir Duke.txt" />
+    <Content Include="Transcript for Early Life Video featuring the song Fingertips.txt" />
+    <Content Include="Transcript for Legacy and Activism Video featuring the song Happy Birthday.txt" />
+    <Content Include="Transcript for Motown Years Video featuring the song Uptight.txt" />
+    <Content Include="UpTight.mp4" />
+    <Content Include="web.config" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:28039/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
